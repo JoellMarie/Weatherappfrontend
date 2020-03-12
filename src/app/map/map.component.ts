@@ -18,7 +18,7 @@ export class MapComponent implements OnInit {
    count = 0;
   style = 'mapbox://styles/mapbox/streets-v11';
    sendData(receiveData) {
-     axios.get('http://localhost:3000/weather')
+     axios.get(`http://localhost:3000/weather?count=${receiveData}`)
      .then(response => {
       console.log(response.data);
       const savedData = response.data;
