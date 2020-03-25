@@ -8,6 +8,7 @@ Weatherappbackend is a web application that returns a number of random latitudes
 2. `cd` into `weatherappfrontend`
 3. Run `npm install` to install packages
 4. Run `ng serve` to run it. 
+5. Navigate to localhost:4200/map to be able to view it properly.
 ## Usage
 
 ```Angular front end with Javascript
